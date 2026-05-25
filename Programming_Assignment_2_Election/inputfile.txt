@@ -1,0 +1,14 @@
+POPULATION 2500
+CANDIDATES 8
+Mickey
+Mia
+Anthony
+Katy
+Lewis
+Ashley
+Danny
+Karen
+REGIONS 3
+Seoul 1 1500
+Daegu 2 700
+Daejon 3 300

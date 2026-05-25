@@ -1,0 +1,8 @@
+POPULATION 1000
+CANDIDATES 3
+Alice
+Bob
+Charlie
+REGIONS 2
+Busan 1 600
+Incheon 2 400

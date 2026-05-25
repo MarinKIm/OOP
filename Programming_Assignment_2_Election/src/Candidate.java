@@ -1,16 +1,16 @@
-public class Candidate implements Comparble<Candidate> {
+public class Candidate implements Comparable<Candidate> {
 
-    public class Vote{
-        int regionNum;
-        Vote(int regionNum)
+    private class Vote{
+        private int regionNum;
+        public Vote(int regionNum)
         {
             this.regionNum = regionNum;
         }
     }
 
-    String name;
-    int numVotes;
-    Vote [] votes;
+    private String name;
+    private int numVotes;
+    private Vote [] votes;
 
     public Candidate(String name, int maxVotes){
         this.name = name;
@@ -23,9 +23,12 @@ public class Candidate implements Comparble<Candidate> {
     }
 
 
+    public int compareTo(Candidate other) {
+        return Integer.compare(other.numVotes, this.numVotes);
+    }
 
     public String toString(){
-        return "------------Candidate-----------\n"
+        return "------------Candidate------------\n"
                 + "Name: " + name + "\n"
                 + "Votes: " + numVotes + "\n\n"
                 + "==============================";

@@ -1,0 +1,16 @@
+POPULATION 10000
+CANDIDATES 10
+Alpha
+Beta
+Gamma
+Delta
+Epsilon
+Zeta
+Eta
+Theta
+Iota
+Kappa
+REGIONS 3
+Seoul 1 5000
+Busan 2 3000
+Jeju 3 2000

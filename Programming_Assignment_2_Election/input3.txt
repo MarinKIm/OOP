@@ -1,0 +1,12 @@
+POPULATION 5000
+CANDIDATES 5
+James
+Emma
+Oliver
+Sophia
+Liam
+REGIONS 4
+Seoul 1 2000
+Busan 2 1200
+Daegu 3 1000
+Incheon 4 800

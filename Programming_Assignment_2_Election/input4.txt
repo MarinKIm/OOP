@@ -1,0 +1,10 @@
+POPULATION 500
+CANDIDATES 2
+Trump
+Biden
+REGIONS 5
+Seoul 1 150
+Busan 2 100
+Daegu 3 100
+Gwangju 4 100
+Daejeon 5 50
